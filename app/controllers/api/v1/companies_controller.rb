@@ -2,6 +2,7 @@ module Api
   module V1
     class CompaniesController < ApplicationController
 
+      # POST /companies
       def create
         company = Company.new(company_params)
 
