@@ -29,6 +29,7 @@ group :development, :test do
 
   # Run rspec against the stable release
   gem 'rspec-rails', '~> 3.7.0'
+  gem 'pry'
 end
 
 group :development do
